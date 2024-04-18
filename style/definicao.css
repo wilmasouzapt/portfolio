@@ -1,0 +1,130 @@
+* {
+
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;}
+
+
+
+body {
+    background-color: black
+}
+
+#texto {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+header {
+    background-image: url("../assets/image00057.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    
+
+}
+
+nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+  
+.Menu {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: medium;
+
+}
+
+.Menu:hover {
+    background-color: black ;
+    color: white;
+}
+
+#inicio {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#perfil {
+    width: 200px;
+    border-radius: 100px;
+    border:2px outset black;
+    margin-left: 130px;
+}
+
+#nome {
+    font-size: 50px;
+    font-family: "Outfit", cursive;
+    
+}
+
+#descricao {
+    font-size: 25px;
+    text-align: right;
+}
+
+#quemsoueu {
+    margin-bottom: 15px;
+}
+
+#mainpaginainicial {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 80px;
+    font-family: "Outfit";
+    margin-bottom: 25px;
+}
+
+#textodeabertura {
+    width: 50%;
+    text-align: justify;
+}
+
+#divdefotos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.colunadeimagem {
+    width: 450px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.redessociais {
+    width: 50px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: white;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+#texto-rodape {
+    margin-top: 15px;
+    font-family: "Outfit";
+}
